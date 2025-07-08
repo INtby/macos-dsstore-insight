@@ -6,5 +6,6 @@ I explored the behavior of `.DS_Store`, a hidden file macOS uses to store folder
 - Terminal-based experiments to detect and delete it
 - Why Finder refuses to show it
 - Reflections on system design and visibility
-Read the full report: macos_dsstore_report.md
+Read the full report: macos_dsstore_report.md.
+
 📌 This is part of an ongoing series where I explore how macOS works under the hood. Coming next: .plist files and launchd.
