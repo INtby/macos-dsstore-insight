@@ -25,7 +25,7 @@ To start off, I used the following command in Terminal to search for `.DS_Store`
 find ~ -name ".DS_Store"
 ```
 
-![Screenshot 2025-07-08 at 22.50.57](/Users/lucas/Library/Application Support/typora-user-images/Screenshot 2025-07-08 at 22.50.57.png)
+![Find output](./images/Screenshot 2025-07-08 at 22.50.57.png)
 
 From this, I discovered `.DS_Store` files are basically *everywhere*:
 
@@ -95,8 +95,8 @@ killall Finder
 
 Still nothing. Finder just *won't* show it.
 
-### ![Screenshot 2025-07-08 at 23.39.18](/Users/lucas/Library/Application Support/typora-user-images/Screenshot 2025-07-08 at 23.39.18.png)
-Even using tools like Dropover or soft links (symlinks) pointed directly at ![Screenshot 2025-07-08 at 23.39.50](/Users/lucas/Library/Application Support/typora-user-images/Screenshot 2025-07-08 at 23.39.50.png)`.DS_Store` — and Dropover could show it in its shelf — but when I clicked "Reveal in Finder"… Finder just selected the folder, not the file. 
+![OnyX rebuild UI](./images/Screenshot 2025-07-08 at 23.39.18.png)
+Even using tools like Dropover or soft links (symlinks) pointed directly at ![Still hidden in Finder](./images/Screenshot 2025-07-08 at 23.39.50.png)`.DS_Store` — and Dropover could show it in its shelf — but when I clicked "Reveal in Finder"… Finder just selected the folder, not the file. 
 
 This led me to realize:
 
