@@ -6,7 +6,7 @@ while exploring OnyX — a system maintenance tool for macOS — I stumbled into
 
 > “Rebuild .DS_Store files”
 
-That curiosity led me here. This is my **first system behavior research project**. I'm documenting what `.DS_Store` is, how it behaves, how to observe it
+I'm documenting what `.DS_Store` is, how it behaves, how to observe it
 
 Some of the questions I had were:
 
@@ -50,7 +50,7 @@ From this, I discovered `.DS_Store` files are basically *everywhere*:
 /Users/lucas/Library/CloudStorage/iCloudDrive-iCloudDrive/.../.DS_Store
 ```
 
-if some apps that *look like Finder* (like WeChat or Ryujinx internal browsers) actually trigger `.DS_Store` creation themselves.
+some apps that *look like Finder* (like WeChat or Ryujinx internal browsers) actually trigger `.DS_Store` creation themselves.
 
 ---
 
@@ -74,13 +74,11 @@ So I started messing around to see if I could get Finder to generate one.
 
 Still nothing. That got me thinking — maybe `.DS_Store` is *only* created when Finder actually needs to save view info?
 
-So I created a folder called `TestFolder`, rearranged icons inside it, resized the window, etc. And *then* ran `find` again — finally, `.DS_Store` appeared inside it.
+So I created a folder called `TestFolder`, rearranged icons inside it, resized the window, etc. hope to see it in the graphical window.(maybe it will be modified)
 
 ---
 
 ## Experiment 3
-
-This part was kind of frustrating, but also fascinating.
 
 I could clearly see `.DS_Store` files in Terminal, but even after pressing `⌘ + Shift + .`, Finder wouldn't show them.
 
@@ -95,6 +93,7 @@ Still nothing. Finder just *won't* show it.
 
 Even using tools like Dropover or soft links (symlinks) pointed directly at`.DS_Store` — and Dropover could show it in its shelf — but when I clicked "Reveal in Finder"… Finder just selected the folder, not the file. 
 
+try to delete them, they generated at once.
 
 - Finder *really* doesn't want users to see `.DS_Store`
 - macOS uses both filesystem flags and GUI rules to hide it
