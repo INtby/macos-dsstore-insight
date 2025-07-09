@@ -1,6 +1,7 @@
 # macos-dsstore-insight
 A system behavior exploration of macOS .DS_Store files.
-I explored the behavior of `.DS_Store`, a hidden file macOS uses to store folder view settings.  
+
+explore the behavior of `.DS_Store`—— hidden file macOS uses to store folder view settings.  
 - What `.DS_Store` is and how it's generated
 - Terminal-based experiments to detect and delete it
 - Why Finder refuses to show it
