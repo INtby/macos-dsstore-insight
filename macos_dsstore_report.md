@@ -93,7 +93,18 @@ Still nothing. Finder just *won't* show it.
 
 Even using tools like Dropover or soft links (symlinks) pointed directly at`.DS_Store` — and Dropover could show it in its shelf — but when I clicked "Reveal in Finder"… Finder just selected the folder, not the file. 
 
-try to delete them, they generated at once.
+try to delete them
+The folder sorting and display mode have been reset.
+
+•	 The folder will be restored to the default display (such as list view, sorted by name).
+
+•	 Custom icon arrangement, window size or background map will be lost.
+
+No actual files or data will be deleted.
+
+. DS_Store is just a hidden system file. If you delete it, you will not lose your documents or pictures.
+
+Once I open that folder with Finder, the system will automatically generate a new one. DS_Store file
 
 - Finder *really* doesn't want users to see `.DS_Store`
 - macOS uses both filesystem flags and GUI rules to hide it
@@ -101,7 +112,7 @@ try to delete them, they generated at once.
 
 ---
 
-##  Summury 总结！
+##  Summury ！
 
 - It's protected and hidden by design — both through filesystem flags and Finder's GUI rules
 - Terminal and tools like `find`, `ls`, and `chflags` are your best bet for observing it
