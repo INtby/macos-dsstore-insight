@@ -95,7 +95,6 @@ Still nothing. Finder just *won't* show it.
 
 Even using tools like Dropover or soft links (symlinks) pointed directly at`.DS_Store` — and Dropover could show it in its shelf — but when I clicked "Reveal in Finder"… Finder just selected the folder, not the file. 
 
-This led me to realize:
 
 - Finder *really* doesn't want users to see `.DS_Store`
 - macOS uses both filesystem flags and GUI rules to hide it
@@ -109,7 +108,7 @@ This led me to realize:
 - Terminal and tools like `find`, `ls`, and `chflags` are your best bet for observing it
 - GUI tools (even good ones) like Dropover can't fully bypass macOS's Finder-level suppression
 
-one hidden file reveals **macOS controls visibility and system behavior.**
+**macOS controls visibility and system behavior.**
 
 ---
 
