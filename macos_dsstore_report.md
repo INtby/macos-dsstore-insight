@@ -24,7 +24,7 @@ To start off, I used the following command in Terminal to search for `.DS_Store`
 ```bash
 find ~ -name ".DS_Store"
 ```
-
+![截图1](https://github.com/INtby/macos-dsstore-insight/blob/main/Screenshot%202025-07-08%20at%2022.50.57.png)
 From this, I discovered `.DS_Store` files are basically *everywhere*:
 
 ###  Common folders:
