@@ -88,9 +88,9 @@ Even worse: I tried removing the `hidden` flag with:
 chflags nohidden /Users/lucas/Desktop/暑假作业/.DS_Store
 killall Finder
 ```
-
+![截图2](https://github.com/INtby/macos-dsstore-insight/blob/main/Screenshot%202025-07-08%20at%2023.39.18.png)
 Still nothing. Finder just *won't* show it.
-
+![截图3](https://github.com/INtby/macos-dsstore-insight/blob/main/Screenshot%202025-07-08%20at%2023.39.50.png)
 Even using tools like Dropover or soft links (symlinks) pointed directly at`.DS_Store` — and Dropover could show it in its shelf — but when I clicked "Reveal in Finder"… Finder just selected the folder, not the file. 
 
 try to delete them
